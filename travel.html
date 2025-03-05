@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jet Set Book - Explore the World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+<body>
+    
+    <header>   
+      
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Dubai">Dubai</a></li>
+                <li><a href="#thailand">Thailand</a></li>
+                <li><a href="#sri-lanka">Sri Lanka</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Explore the World with JetSetBook</h1>
+            <h3>MR.Keerthi Chandra has been passoniate about travel and exploring the world.
+                This passion made him start a travel agency, "jetsetbook".Anyone interested 
+                can take this services. He arranges travel air tickets, stays and itenary
+                 planning etc for individuals, groups and corporates.
+            </h2>
+            <p>Luxury, Budget, Business & Leisure Travel</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section id="explore the World" class="destination">
+        <div class="text">
+            <h2>Explore the World</h2>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+        <img src="Explore Image 1.jpg" alt="Explore">
+    </section>
+
+    <section id="Dubai" class="destination">
+        <div class="text">
+            <h2>Dubai Tour</h2>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+        <video width="1000" controls>
+            <source src="DUBAIii.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="thailand" class="destination">
+        <div class="text">
+            <h2>Thailand Tour</h2>
+            <p>Special Price: INR 30,000 per person</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+        <img src="Image thailand.jpg" alt="Thailand">
+    </section>
+
+    <section id="sri-lanka" class="destination">
+        <img src="Image srlanka.jpg" alt="Sri Lanka">
+        <div class="text">
+            <h2>Discover Sri Lanka</h2>
+            <p>Inclusive of Transport, Meals, Stay, Sightseeing, and Tour Guide</p>
+            <a href="#contact" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us </h2>
+        <p>For bookings and inquiries, reach us at:</p>
+        <p><strong>Phone:</strong> +91-9959666602</p>
+        <p><strong>Email:</strong> kc@jetsetbook.com</p>
+        <a href="mailto:kc@jetsetbook.com" class="btn">Send Email</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Jet Set Book | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
